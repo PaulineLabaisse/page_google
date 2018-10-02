@@ -1,0 +1,132 @@
+/*debut de la partie header*/
+
+header a
+{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+}
+
+#bouton
+{
+	padding-right: 1%; 
+	padding-left: 1%;
+}
+
+
+header {
+ align-items: center;
+ display: flex;
+ justify-content: flex-end;
+ flex-direction: row;
+ margin: 1em;
+}
+
+.conexion
+{
+	background: #3498db;
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+	border-style: none; 
+	height: 30px;
+	width: 90px;
+}
+
+/*fin de la partie header*/
+/*debut de la partie Google */
+
+
+.google
+{
+	text-align: center;
+	margin-top: 20%;	
+}
+
+article
+{
+	display: flex;
+	justify-content: center;
+	padding: 22px;
+}
+
+.champ
+{
+	height: 30px;
+	width: 380px;
+	box-shadow: 2px 2px 3px grey;
+	border-style: none;
+	margin-top: 20px;
+}
+
+.sousgoogle
+{
+	background: #ecf0f1;
+	font-family: arial;
+	font-weight: bold;
+	color: grey;
+	border-radius: 3px; 
+	height: 30px;
+	width: 120px;
+}
+
+#chance
+{
+	padding-left: 1%;
+}
+/*fin de la partie Google */
+/*debut de la partie footer */
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#france {
+	background: #ecf0f1;
+	height: 50px;
+	width: auto;
+	border-top: 1px #bdc3c7 solid;
+	display: flex;
+	align-items: center;
+	font-family: arial; 
+	color: grey;
+}
+
+#bas {
+	background: #ecf0f1;
+	height: 50px;
+	width: auto;
+	border-top: 1px #bdc3c7 solid;
+	font-family: arial; 
+	display: flex;
+	align-items: center;
+}
+
+
+footer section {
+	display: flex;
+	justify-content: space-between;
+}
+
+#bas a {
+	text-decoration: none;
+	color: grey;
+	font-size: medium;
+	padding: 0.2em;
+}
+
+.gauche{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.droite {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*fin de la partie footer */
